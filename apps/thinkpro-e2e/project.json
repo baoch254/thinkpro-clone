@@ -1,0 +1,28 @@
+{
+  "root": "apps/thinkpro-e2e",
+  "sourceRoot": "apps/thinkpro-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/thinkpro-e2e/cypress.json",
+        "devServerTarget": "thinkpro:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "thinkpro:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/thinkpro-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["thinkpro"]
+}
