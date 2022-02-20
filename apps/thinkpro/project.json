@@ -66,5 +66,5 @@
       }
     }
   },
-  "tags": []
+  "tags": ["type:app", "scope:thinkpro-react"]
 }

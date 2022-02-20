@@ -1,0 +1,23 @@
+{
+  "root": "libs/thinkpro-api/data-access-shared",
+  "sourceRoot": "libs/thinkpro-api/data-access-shared/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/thinkpro-api/data-access-shared/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/thinkpro-api/data-access-shared"],
+      "options": {
+        "jestConfig": "libs/thinkpro-api/data-access-shared/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
