@@ -13,6 +13,7 @@ export class BaseProfile extends AutomapperProfile {
   mapProfile(): MappingProfile {
     return (mapper) => {
       mapper.createMap(BaseModel, BaseDto);
+      mapper.createMap(BaseDto, BaseModel);
     };
   }
 }

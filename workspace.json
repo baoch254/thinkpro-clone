@@ -4,6 +4,7 @@
     "thinkpro": "apps/thinkpro",
     "thinkpro-api": "apps/thinkpro-api",
     "thinkpro-api-data-access-shared": "libs/thinkpro-api/data-access-shared",
+    "thinkpro-api-data-access-user": "libs/thinkpro-api/data-access-user",
     "thinkpro-api-feature-config": "libs/thinkpro-api/feature-config",
     "thinkpro-api-feature-shared": "libs/thinkpro-api/feature-shared",
     "thinkpro-api-feature-user": "libs/thinkpro-api/feature-user",

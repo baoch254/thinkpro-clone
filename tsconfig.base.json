@@ -18,6 +18,9 @@
       "@thinkpro/thinkpro-api/data-access-shared": [
         "libs/thinkpro-api/data-access-shared/src/index.ts"
       ],
+      "@thinkpro/thinkpro-api/data-access-user": [
+        "libs/thinkpro-api/data-access-user/src/index.ts"
+      ],
       "@thinkpro/thinkpro-api/feature-config": [
         "libs/thinkpro-api/feature-config/src/index.ts"
       ],
