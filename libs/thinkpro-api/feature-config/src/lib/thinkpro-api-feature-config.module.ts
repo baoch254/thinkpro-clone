@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { BaseProfile } from '@thinkpro/thinkpro-api/mappings-shared';
+import { BaseProfile } from '@thinkpro/thinkpro-api-shared-utils-mappings';
 import {
   appConfiguration,
   typeOrmConfiguration,

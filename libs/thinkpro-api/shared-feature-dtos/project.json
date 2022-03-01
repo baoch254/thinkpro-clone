@@ -1,0 +1,23 @@
+{
+  "root": "libs/thinkpro-api/shared-feature-dtos",
+  "sourceRoot": "libs/thinkpro-api/shared-feature-dtos/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/thinkpro-api/shared-feature-dtos/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/thinkpro-api/shared-feature-dtos"],
+      "options": {
+        "jestConfig": "libs/thinkpro-api/shared-feature-dtos/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

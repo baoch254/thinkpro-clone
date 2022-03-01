@@ -15,7 +15,6 @@ import {
   AppConfig,
   appConfiguration,
 } from '@thinkpro/thinkpro-api/utils-config';
-import { HttpExceptionFilter } from '@thinkpro/thinkpro-api/utils-shared';
 
 import * as compression from 'compression';
 import * as helmet from 'helmet';
@@ -77,8 +76,6 @@ async function bootstrap() {
 
   configureSwagger(appConfig, app, globalPrefix);
   configureNoContentHandlers(app);
-
-  app.useGlobalFilters(new HttpExceptionFilter());
 
   await app.listen(appConfig.port);
   Logger.log(`🚀 Listening on: ${appConfig.domain}/${globalPrefix}`);

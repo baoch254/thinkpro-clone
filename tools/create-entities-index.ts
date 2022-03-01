@@ -25,7 +25,7 @@ function createEntitiesIndex() {
 
   for (const item of fg.sync(`${pathLibScan}/**/entities/*.entity.ts`)) {
     const filePath = path.relative(outDir, item).replace(/\.ts$/, '');
-    const data = `export * from '${filePath}'\n`;
+    const data = `export * from '${filePath}';\n`;
     fs.writeFileSync(tmpFile, data, { flag: 'a+' });
   }
 

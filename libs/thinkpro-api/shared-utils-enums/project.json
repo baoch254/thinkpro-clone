@@ -1,0 +1,23 @@
+{
+  "root": "libs/thinkpro-api/shared-utils-enums",
+  "sourceRoot": "libs/thinkpro-api/shared-utils-enums/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/thinkpro-api/shared-utils-enums/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/thinkpro-api/shared-utils-enums"],
+      "options": {
+        "jestConfig": "libs/thinkpro-api/shared-utils-enums/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

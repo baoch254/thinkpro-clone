@@ -1,0 +1,25 @@
+{
+  "root": "libs/thinkpro-api/shared-data-access-entities",
+  "sourceRoot": "libs/thinkpro-api/shared-data-access-entities/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/thinkpro-api/shared-data-access-entities/**/*.ts"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/thinkpro-api/shared-data-access-entities"],
+      "options": {
+        "jestConfig": "libs/thinkpro-api/shared-data-access-entities/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

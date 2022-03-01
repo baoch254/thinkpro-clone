@@ -1,0 +1,25 @@
+{
+  "root": "libs/thinkpro-api/shared-utils-exception-filters",
+  "sourceRoot": "libs/thinkpro-api/shared-utils-exception-filters/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/thinkpro-api/shared-utils-exception-filters/**/*.ts"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/thinkpro-api/shared-utils-exception-filters"],
+      "options": {
+        "jestConfig": "libs/thinkpro-api/shared-utils-exception-filters/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

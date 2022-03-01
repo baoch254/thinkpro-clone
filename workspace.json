@@ -3,14 +3,18 @@
   "projects": {
     "thinkpro": "apps/thinkpro",
     "thinkpro-api": "apps/thinkpro-api",
-    "thinkpro-api-data-access-shared": "libs/thinkpro-api/data-access-shared",
     "thinkpro-api-data-access-user": "libs/thinkpro-api/data-access-user",
     "thinkpro-api-feature-config": "libs/thinkpro-api/feature-config",
-    "thinkpro-api-feature-shared": "libs/thinkpro-api/feature-shared",
     "thinkpro-api-feature-user": "libs/thinkpro-api/feature-user",
-    "thinkpro-api-mappings-shared": "libs/thinkpro-api/mappings-shared",
+    "thinkpro-api-shared-data-access-entities": "libs/thinkpro-api/shared-data-access-entities",
+    "thinkpro-api-shared-data-access-models": "libs/thinkpro-api/shared-data-access-models",
+    "thinkpro-api-shared-feature-dtos": "libs/thinkpro-api/shared-feature-dtos",
+    "thinkpro-api-shared-utils-decorators": "libs/thinkpro-api/shared-utils-decorators",
+    "thinkpro-api-shared-utils-enums": "libs/thinkpro-api/shared-utils-enums",
+    "thinkpro-api-shared-utils-exception-filters": "libs/thinkpro-api/shared-utils-exception-filters",
+    "thinkpro-api-shared-utils-exceptions": "libs/thinkpro-api/shared-utils-exceptions",
+    "thinkpro-api-shared-utils-mappings": "libs/thinkpro-api/shared-utils-mappings",
     "thinkpro-api-utils-config": "libs/thinkpro-api/utils-config",
-    "thinkpro-api-utils-shared": "libs/thinkpro-api/utils-shared",
     "thinkpro-e2e": "apps/thinkpro-e2e"
   }
 }

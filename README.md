@@ -51,3 +51,12 @@ footer?
   Example: s3archive.loadFilesFromDay(LocalDate.now())
 
 - try\*Foos() - explicitly indicates that it will handle errors / exceptions, either by returning null, empty list, or a predefined wrapping exception. Often used as a util method to wrap a method unconveniently throwing if it does not find.
+
+## TERMs
+
+### AutoMapper - those terms are used to name variables in Profile
+
+- D2M: Dto to Model
+- M2D: Model to Dto
+- M2E: Model to Entity
+- E2M: Entity to Model

@@ -15,8 +15,14 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@thinkpro/thinkpro-api/data-access-shared": [
-        "libs/thinkpro-api/data-access-shared/src/index.ts"
+      "@thinkpro/thinkpro-api-shared-data-access-entities": [
+        "libs/thinkpro-api/shared-data-access-entities/src/index.ts"
+      ],
+      "@thinkpro/thinkpro-api-shared-utils-exceptions": [
+        "libs/thinkpro-api/shared-utils-exceptions/src/index.ts"
+      ],
+      "@thinkpro/thinkpro-api-shared-utils-mappings": [
+        "libs/thinkpro-api/shared-utils-mappings/src/index.ts"
       ],
       "@thinkpro/thinkpro-api/data-access-user": [
         "libs/thinkpro-api/data-access-user/src/index.ts"
@@ -24,20 +30,26 @@
       "@thinkpro/thinkpro-api/feature-config": [
         "libs/thinkpro-api/feature-config/src/index.ts"
       ],
-      "@thinkpro/thinkpro-api/feature-shared": [
-        "libs/thinkpro-api/feature-shared/src/index.ts"
-      ],
       "@thinkpro/thinkpro-api/feature-user": [
         "libs/thinkpro-api/feature-user/src/index.ts"
       ],
-      "@thinkpro/thinkpro-api/mappings-shared": [
-        "libs/thinkpro-api/mappings-shared/src/index.ts"
+      "@thinkpro/thinkpro-api/shared-data-access-models": [
+        "libs/thinkpro-api/shared-data-access-models/src/index.ts"
+      ],
+      "@thinkpro/thinkpro-api/shared-feature-dtos": [
+        "libs/thinkpro-api/shared-feature-dtos/src/index.ts"
+      ],
+      "@thinkpro/thinkpro-api/shared-utils-decorators": [
+        "libs/thinkpro-api/shared-utils-decorators/src/index.ts"
+      ],
+      "@thinkpro/thinkpro-api/shared-utils-enums": [
+        "libs/thinkpro-api/shared-utils-enums/src/index.ts"
+      ],
+      "@thinkpro/thinkpro-api/shared-utils-exception-filters": [
+        "libs/thinkpro-api/shared-utils-exception-filters/src/index.ts"
       ],
       "@thinkpro/thinkpro-api/utils-config": [
         "libs/thinkpro-api/utils-config/src/index.ts"
-      ],
-      "@thinkpro/thinkpro-api/utils-shared": [
-        "libs/thinkpro-api/utils-shared/src/index.ts"
       ]
     }
   },

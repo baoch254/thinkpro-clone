@@ -1,6 +1,7 @@
 import { ConfigType, registerAs } from '@nestjs/config';
 
 export const appConfiguration = registerAs('app', () => ({
+  NODE_ENV: process.env.NODE_ENV || 'dev',
   protocol: process.env.APP_PROTOCOL || 'http',
   host: process.env.APP_HOST || 'localhost',
   port: process.env.APP_PORT || 3000,
